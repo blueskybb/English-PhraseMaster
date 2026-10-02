@@ -1,20 +1,22 @@
 {
   "name": "TTS Offline Test",
-  "short_name": "TTS Test",
+  "short_name": "TTSTest",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
   "icons": [
     {
-      "src": "https://via.placeholder.com/192/007bff/ffffff?text=TTS",
+      "src": "https://pwa-builder-html-plugin.firebaseapp.com/assets/icons/icon_192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "https://via.placeholder.com/512/007bff/ffffff?text=TTS",
+      "src": "https://pwa-builder-html-plugin.firebaseapp.com/assets/icons/icon_512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }

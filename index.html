@@ -4,26 +4,6 @@
 
 
 
-<script>
-  // 他のアプリと重複しないよう、アプリごとにここ（"app_schedule_v1"）の名前を変えるだけ！
-  const APP_ID = "app_phrasemaster_v1"; 
-  
-  const manifest = {
-    "name": "予定表",
-    "short_name": "予定表",
-    "id": "./?app=" + APP_ID,
-    "start_url": "./",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#ffb74d",
-    "icons": [{"src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23ffb74d'/><text x='50%' y='65%' font-size='50' text-anchor='middle' fill='white'>📅</text></svg>", "sizes": "192x192", "type": "image/svg+xml"}]
-  };
-  const link = document.createElement('link');
-  link.rel = 'manifest';
-  link.href = URL.createObjectURL(new Blob([JSON.stringify(manifest)], {type: 'application/json'}));
-  document.head.appendChild(link);
-</script>
-
 
 
 
